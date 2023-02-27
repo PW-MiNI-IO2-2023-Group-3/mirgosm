@@ -23,7 +23,7 @@ namespace io2_workshop_tests
 
         [Theory]
         [InlineData("12,13",25)]
-        [InlineData("12,4",20)]
+        [InlineData("12,4",16)]
         [InlineData("0,3",3)]
         public void CommaSeparatedReturnSum(string str, int expectedValue)
         {
