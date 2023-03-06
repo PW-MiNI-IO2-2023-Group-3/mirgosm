@@ -34,7 +34,7 @@ namespace io2_workshop_tests
         [Theory]
         [InlineData("12\n13",25)]
         [InlineData("12\n4",16)]
-        [InlineData("0\n3",3)]
+        [InlineData("-1\n3",3)]
         public void NewlineSeparatedReturnSum(string str, int expectedValue)
         {
             int result = StringCalculator.SumString(str);
